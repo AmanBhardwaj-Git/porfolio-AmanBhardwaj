@@ -47,7 +47,7 @@ const HeroContent = () => {
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           I&apos;m a MERN Stack Developer , who makes SEO friendly, Optimised , Modern Animations enabled Website,
-         which 're all device reponsive. Contact For more!
+         which &apos;re all device reponsive. Contact For more!
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
