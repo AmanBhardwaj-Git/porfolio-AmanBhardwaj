@@ -5,14 +5,14 @@ import ProjectCard from "../sub/ProjectCard";
 const Projects = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center py-10"
+      className="flex flex-col items-center justify-center pb-10 h-full"
       id="projects"
     >
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
        Samples 
       </h1>
       <h5 className="text-md md:text-lg cursive px-5 pb-5 text-white" >Note: These are just a demo and doesn&apos;t claim any of my end product </h5>
-      <div className={`h-screen md:h-full w-full flex flex-col md:flex-row gap-10 px-10 md:px-40 rounded-xl `}>
+      <div className={` h-full w-full flex flex-col md:flex-row gap-10 px-10 md:px-40 rounded-xl `}>
         <ProjectCard
           src="/homeAbsite.mp4"
           title="Prev-ABSite"

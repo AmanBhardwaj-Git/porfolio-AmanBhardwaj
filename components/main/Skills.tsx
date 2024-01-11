@@ -38,10 +38,10 @@ const Skills = () => {
           />
         ))}
       </div>
-     
-     
+      
 
-     
+      
+
     </section>
   );
 };

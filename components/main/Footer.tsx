@@ -1,13 +1,13 @@
 import React from "react";
 import {
-  RxDiscordLogo,
+
   RxGithubLogo,
   RxInstagramLogo,
   RxTwitterLogo,
   RxLinkedinLogo,
+ 
 } from "react-icons/rx";
-
-import { FaInstagram, FaYoutube } from "react-icons/fa";
+import { BiLogoGmail } from "react-icons/bi";
 
 const Footer = () => {
   return (
@@ -19,28 +19,29 @@ const Footer = () => {
             <div className="w-full flex gap-5 flex-wrap px-5 justify-center items-center">
 
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <FaInstagram />
-              <span className="text-[15px] ml-[6px]">Instagram</span>
+              < RxInstagramLogo />
+              <a href="https://www.instagram.com/amanbhardwaj0tw/" className="text-[15px] ml-[6px]">Instagram</a>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <RxGithubLogo />
-              <span className="text-[15px] ml-[6px]">Github</span>
+              <a href="https://github.com/AmanBhardwaj-Git" className="text-[15px] ml-[6px]">Github</a>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <RxTwitterLogo />
-              <span className="text-[15px] ml-[6px]">Twitter</span>
+              <a href="https://twitter.com/bhardWAman?t=FJji__Kcsin-BEpfNASJ7w&s=08" className="text-[15px] ml-[6px]">X(twitter)</a>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <RxLinkedinLogo />
-              <span className="text-[15px] ml-[6px]">Linkedin</span>
+              <a href="https://in.linkedin.com/in/amanbhardwajotw" className="text-[15px] ml-[6px]">Linkedin</a>
             </p>
           </div>
           </div>
           <div className="w-[200px] h-auto flex flex-col items-center justify-start">
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <span className="text-[15px] ml-[6px]">
+            <BiLogoGmail />
+              <a href="mailto:dayalbhardwaj10@gmail.com?subject=Mail from HubFolio" className="text-[15px] ml-[6px]">
                 dayalbhardwaj10@gmail.com
-              </span>
+              </a>
             </p>
           </div>
         </div>

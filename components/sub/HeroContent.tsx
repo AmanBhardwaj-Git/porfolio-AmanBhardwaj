@@ -66,7 +66,18 @@ const HeroContent = () => {
           alt="work icons"
           height={650}
           width={650}
-        />
+        /> 
+             </motion.div>
+      <motion.div
+        variants={slideInFromRight(0.8)}
+        className="absolute w-[50%] h-[50%] left-[65%] top-[400px] animate-bounce  "
+      >
+        <Image
+          src="/spacebg.png"
+          alt="work icons"
+          height={250}
+          width={250}
+        /> 
       </motion.div>
     </motion.div>
   );

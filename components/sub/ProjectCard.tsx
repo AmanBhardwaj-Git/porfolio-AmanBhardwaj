@@ -15,7 +15,7 @@ const ProjectCard = ({ src, title, description }: Props) => {
 
   return (
     <div
-      className={`relative overflow-hidden rounded-lg shadow-lg hover:border   border-[#2A0E61] z-20 `}
+      className={`relative overflow-hidden rounded-lg shadow-lg hover:border border-[#2A0E61] z-20 `}
     >
       <video
         preload="false"
