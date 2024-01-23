@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useRef } from "react";
+import { BsArrowUpRight } from "react-icons/bs";
 
 interface Props {
   src: string;
@@ -32,9 +33,9 @@ const ProjectCard = ({ src, title, description }: Props) => {
 
       <div className={`relative p-4 `}>
         <h1 className="text-2xl font-semibold text-yellow-800">{title}</h1>
-        <p className="mt-2 text-yellow-600 ">
-          <a href={description}>Visit Link</a>
-        
+        <p className="mt-2 text-zinc-400 flex gap-2 ">
+          <a href={description}>Visit Link  </a>
+          <BsArrowUpRight />
         </p>
       </div>
     </div>

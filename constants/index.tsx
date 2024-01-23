@@ -38,19 +38,6 @@ export const Skill_data = [
   
 
   
-    {
-      skill_name: "Node js",
-      Image: "/node-js.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Mongo db",
-      Image: "/mongodb.png",
-      width: 40,
-      height: 40,
-    },
-  
   ];
   
   export const Socials = [
@@ -71,6 +58,20 @@ export const Skill_data = [
   
   
   export const Backend_skill = [
+    
+  
+    {
+      skill_name: "Node js",
+      Image: "/node-js.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "Mongo db",
+      Image: "/mongodb.png",
+      width: 40,
+      height: 40,
+    },
     {
       skill_name: "Next js 13",
       Image: "/next.png",
@@ -91,20 +92,35 @@ export const Skill_data = [
       Image: "/mysql.png",
       width: 70,
       height: 70,
-    },
+    }
 
  
   ];
   
-  export const Full_stack = [
+  export const BasicLanguages= [
     {
-      skill_name: "React Native",
-      Image: "/ReactNative .png",
-      width: 70,
-      height: 70,
+      skill_name: "c",
+      Image: "/clang.png",
+      width: 80,
+      height: 80,
+    },{
+      skill_name: "cpp",
+      Image: "/cpplang.png",
+      width: 80,
+      height: 80,
     },
-   
-  
+    {
+      skill_name: "java",
+      Image: "/java.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "php",
+      Image: "/php.png",
+      width: 80,
+      height: 80,
+    },
   
   ];
   

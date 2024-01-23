@@ -72,3 +72,8 @@ html {
 * {
   -webkit-tap-highlight-color: transparent;
 }
+
+::selection{
+  color:black;
+  background: rgb(180, 156, 6);
+}

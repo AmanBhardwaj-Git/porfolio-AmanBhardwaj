@@ -8,6 +8,7 @@ import {
   slideInFromTop,
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
+import { BsArrowDownCircle } from "react-icons/bs";
 import Image from "next/image";
 
 const HeroContent = () => {
@@ -51,11 +52,11 @@ const HeroContent = () => {
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="py-2 button-primary text-md flex text-white cursor-pointer rounded-lg justify-around items-center max-w-[200px]"
           href="/Resume _ Aman Bhardwaj.pdf" 
           download=""
         >
-          Download Resume !!
+          Download Resume !!<BsArrowDownCircle />
         </motion.a>
       </div>
 

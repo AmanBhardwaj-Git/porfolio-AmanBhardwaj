@@ -1,6 +1,7 @@
 import {
   Backend_skill,
   Skill_data,
+  BasicLanguages
 } from "@/constants";
 import React from "react";
 import SkillDataProvider from "../sub/SkillDataProvider";
@@ -29,6 +30,17 @@ const Skills = () => {
 
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {Backend_skill.map((image, index) => (
+          <SkillDataProvider
+            key={index}
+            src={image.Image}
+            width={image.width}
+            height={image.height}
+            index={index}
+          />
+        ))}
+      </div>
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+        {BasicLanguages.map((image, index) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
