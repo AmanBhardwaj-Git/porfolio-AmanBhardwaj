@@ -30,8 +30,8 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Redux",
-      Image: "/redux.png",
+      skill_name: "Gsap",
+      Image: "/gsapicon.png",
       width: 80,
       height: 80,
     },
@@ -105,8 +105,8 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Redux",
-      Image: "/redux.png",
+      skill_name: "Gsap",
+      Image: "/gsapicon.png",
       width: 80,
       height: 80,
     },
