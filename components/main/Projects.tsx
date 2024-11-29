@@ -15,7 +15,7 @@ const Projects = () => {
       <div className={` h-full w-full flex flex-col md:flex-row gap-10 px-10 md:px-40 rounded-xl `}>
          <ProjectCard
           src="/worksclone.mp4"
-          title="WORKS | Clone "
+          title="WORKS-Clone"
           description="https://works-clone.vercel.app/"
          
           />
