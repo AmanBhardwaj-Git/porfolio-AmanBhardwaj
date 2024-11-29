@@ -28,7 +28,7 @@ const ProjectCard = ({ src, title, description }: Props) => {
         title={title}
         width={1000}
         height={1000}
-        className="w-full object-contain  blur-lg hover:filter-none"
+        className="w-full h-full object-contain  blur-lg hover:filter-none"
       />
 
       <div className={`relative p-4 `}>
