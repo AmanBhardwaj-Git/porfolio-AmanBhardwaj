@@ -19,12 +19,12 @@ const Projects = () => {
           description="https://works-clone.vercel.app/"
          
           />
-        <ProjectCard
+{/*         <ProjectCard
           src="/homeAbsite.mp4"
           title="Prev-ABSite"
           description="https://amanbhardwaj-git.github.io/oldABsite/index.html"
          
-          />
+          /> */}
         <ProjectCard
          
           src="/NextWebsite.mp4.mp4"
