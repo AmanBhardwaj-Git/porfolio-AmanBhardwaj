@@ -25,6 +25,12 @@ const Projects = () => {
           description="https://works-clone.vercel.app/"
          
           /> */}
+         <ProjectCard
+         
+          src="/NextWebsite.mp4.mp4"
+          title="Cuberto-Home |Clone"
+          description="https://amanbhardwaj-git.github.io/cubertoClone/"
+          />
 
         <ProjectCard
          
