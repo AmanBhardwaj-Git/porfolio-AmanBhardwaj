@@ -27,7 +27,7 @@ const Projects = () => {
           /> */}
          <ProjectCard
          
-          src="//worksclone.mp4"
+          src="/worksclone.mp4"
           title="Cuberto-Home |Clone"
           description="https://amanbhardwaj-git.github.io/cubertoClone/"
           />
