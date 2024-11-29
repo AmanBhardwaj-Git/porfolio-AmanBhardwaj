@@ -13,6 +13,12 @@ const Projects = () => {
       </h1>
       <h5 className="text-sm px-6 md:text-lg cursive  pb-5 text-white" >Note: These are just a demo and doesn&apos;t claim any of my end product </h5>
       <div className={` h-full w-full flex flex-col md:flex-row gap-10 px-10 md:px-40 rounded-xl `}>
+         <ProjectCard
+          src="/worksClone.mp4"
+          title="WORKS | Clone "
+          description="https://works-clone.vercel.app/"
+         
+          />
         <ProjectCard
           src="/homeAbsite.mp4"
           title="Prev-ABSite"
