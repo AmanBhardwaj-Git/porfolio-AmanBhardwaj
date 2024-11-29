@@ -28,11 +28,11 @@ const ProjectCard = ({ src, title, description }: Props) => {
         title={title}
         width={1000}
         height={1000}
-        className="w-full h-full object-contain  blur-lg hover:filter-none"
+        className="w-full  object-contain  blur-lg hover:filter-none"
       />
 
       <div className={`relative p-4 `}>
-        <h1 className="text-2xl font-semibold text-yellow-800">{title}</h1>
+        <h1 className="text-xl font-semibold text-yellow-800">{title}</h1>
         <p className="mt-2 text-zinc-400 flex gap-2 ">
           <a href={description}>Visit Link  </a>
           <BsArrowUpRight />
