@@ -21,12 +21,13 @@ const HeroContent = () => {
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[7px] border border-[#9876ff8b] opacity-[0.9]"
+          className="Welcome-box py-[8px] px-[7px] border border-[#37a4f3a8] opacity-[0.9]"
         >
-          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px] px-2">
-            MERN Developer Portfolio
+          <SparklesIcon className="text-[#3ee7fa] mr-[1px] h-5 w-5" />
+          <h1 className="Welcome-text text-sm md:text-lg px-2">
+           Aman Bhardwaj
           </h1>
+          <SparklesIcon className="text-[#3ee7fa] mr-[1px] h-5 w-5 scale-x-[-1]" />
         </motion.div>
 
         <motion.div
