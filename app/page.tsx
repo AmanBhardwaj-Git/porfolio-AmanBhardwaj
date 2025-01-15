@@ -6,23 +6,29 @@ import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
 
 export default function Home() {
+
   useEffect(() => {
     // Ensure that we only run this code in the browser
-    const progress = document.getElementsByClassName("progressbar")[0];
+    const progress = document.getElementsByClassName("progressbar")[0] as HTMLElement | undefined;
+  
+    // Check if the element exists before proceeding
+    if (!progress) return;
+  
     const totalheight = document.body.scrollHeight - window.innerHeight;
-
+  
     const handleScroll = () => {
       const progressHeight = (window.pageYOffset / totalheight) * 100;
-      progress.style.height = progressHeight + "%";
+      progress.style.height = `${progressHeight}%`;
     };
-
+  
     window.addEventListener("scroll", handleScroll);
-
+  
     // Cleanup the event listener when the component is unmounted
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  
 
   return (
     <main className="h-full w-full">
