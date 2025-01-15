@@ -8,8 +8,8 @@ import Footer from "@/components/main/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Animated Portfolio",
-  description: "Aman Bhardwaj portfolio",
+  title: "Aman Bhardwaj portfolio",
+  description: "Animated Portfolio",
 };
 
 export default function RootLayout({
