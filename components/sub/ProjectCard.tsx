@@ -32,7 +32,7 @@ const ProjectCard = ({ src, title, description }: Props) => {
       />
 
       <div className={`relative p-4 `}>
-        <h1 className="text-xl font-semibold text-yellow-800">{title}</h1>
+        <h1 className="text-xl font-semibold text-yellow-700">{title}</h1>
         <p className="mt-2 text-zinc-400 flex gap-2 ">
           <a href={description}>Visit Link  </a>
           <BsArrowUpRight />
